@@ -117,3 +117,68 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .number {
+    font-size: 4.5rem;
+    width: 12rem;
+    padding: 2rem 0;
+  }
+
+  .guess {
+    font-size: 4rem;
+    padding: 2rem;
+    width: 20rem;
+  }
+
+  .btn {
+    font-size: 1.8rem;
+    padding: 1.5rem 2.5rem;
+  }
+
+  .left,
+  .right {
+    width: 45rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 45%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .number {
+    font-size: 3.5rem;
+    width: 10rem;
+    padding: 1.5rem 0;
+  }
+
+  .guess {
+    font-size: 3rem;
+    padding: 1.5rem;
+    width: 18rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 1.2rem 2rem;
+  }
+
+  .left,
+  .right {
+    width: 35rem;
+  }
+}
